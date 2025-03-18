@@ -13,8 +13,9 @@ const NavBar = () => {
             </div>
             <div className="right">
                 <NavLink className={setActiveClass} to="/"> Home </NavLink>
-                <NavLink className={setActiveClass} to="/sobre-mi"> Sobre Mi </NavLink>
-                <NavLink className={setActiveClass} to="/contacto"> Contacto </NavLink>
+                <NavLink className={setActiveClass} to="/login"> Login </NavLink>
+                <NavLink className={setActiveClass} to="/registro"> Registro </NavLink>
+                <NavLink className={setActiveClass} to="/administrador"> Administrador </NavLink>
             </div>
         </nav>
     </div>

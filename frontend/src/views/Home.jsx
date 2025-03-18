@@ -1,5 +1,4 @@
 import React from "react";
-import imagenDePerfil from "../assets/img/imagePerfil.png";
 const Home = () => {
   return (
     <div>
