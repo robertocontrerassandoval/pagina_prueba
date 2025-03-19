@@ -8,10 +8,10 @@ const NavBar = () => {
     return (
         <div>
         <nav className="navbar">
-            <div className="left">
+            <div className="navbar-left">
                 <NavLink className={setActiveClass} to="/"> <img src={logo} alt="Logo" />  </NavLink>
             </div>
-            <div className="right">
+            <div className="navbar-right">
                 <NavLink className={setActiveClass} to="/"> Home </NavLink>
                 <NavLink className={setActiveClass} to="/login"> Login </NavLink>
                 <NavLink className={setActiveClass} to="/registro"> Registro </NavLink>
