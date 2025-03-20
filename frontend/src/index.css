@@ -196,7 +196,7 @@ h1 {
 
 
 /* Responsividad para pantallas más pequeñas */
-@media (max-width: 480px , 768px) {
+@media (max-width:  768px) {
   .login-container {
     padding: 15px;
     margin: 20px;
